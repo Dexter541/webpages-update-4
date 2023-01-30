@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    
+}
+html, body {
+    overflow-x:hidden 
+  }
+.container {
+    text-align: center;
+    padding: .8em 1.2em;
+    margin: 0;
+
+
+}
+nav ul li a:hover{
+    color: #F88907;
+}
+.mainsection{
+    position: relative;
+    bottom: 60px;
+}
+#logo{
+    width: 20%;
+    position: relative;
+    top: 20px;
+    
+}
+
+nav ul {
+    position: fixed;
+    width: 50%;
+    top: 0;
+    right: 0;
+    text-align: left;
+    background: rgb(36,41,44);
+    height: 100%;
+    z-index: 7;
+    padding-top: 3em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin-top: 0%;
+    padding: 1em 2em;
+    background-color: rgb(49, 55, 59);
+}
+
+nav ul li a:hover {
+    background-color: rgb(65, 73, 78);
+}
+
+.exit-btn {
+    margin-bottom: 1em;
+    margin-top: 1.3em;
+    position: relative;
+    left: 20px;
+    text-align: right;
+    padding: 0 1.4em;
+}
+
+.exit-btn img {
+  
+    cursor: pointer;
+}
+.topsection ul{
+    text-align: right;
+    margin: 0 ;
+    padding: 0;
+    list-style-type: none;
+}
+.welcometext{
+    display: flex;
+    text-align: left;
+    position: relative;
+    left: 10px;
+    margin-top: 34px;
+}
+.viewbutton{
+    background-color: #F88907;
+    color: white;
+    height: 50px;
+    width: 30%;
+    border-radius: 7px;
+    
+    font-weight: 600;
+    font-size: medium;
+    border: 0;
+}
+h2{
+    position: relative;
+    top: 20px;
+    
+}
+h4{
+    color: gray;
+}
+header {
+    display: flex;
+    font-weight: 500;
+    justify-content: space-between;
+}
+h1{
+    margin: 0;
+}
+
+.menu {
+    width: 25px;
+    margin-top: 45%;
+}
+.hide-mobile {
+    display: none;
+}
+#searchbox{
+    width: 97%;
+    height: 40px;
+    background-image: url("pictures/searchicon2.png");
+    background-position: 15px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding-left: 50px; 
+    float: left;
+}
+
+#searchbox::placeholder{
+    font-size: medium;
+    word-spacing: 0.1em;
+}
+table{
+    margin-top: 40px;
+    border-collapse: collapse;
+}
+table td{
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+.heroimages{
+    width: 100%;
+    border-radius: 7px;
+}
+.amala{
+    width: 98%;
+}
+#popularimage{
+    width: 100%;
+    border-radius: 7px;
+}
+.outdoorimage{
+    padding-top: 20px;
+}
+.bookingimages{
+    width: 100%;
+    border-radius: 7px;
+}
+
+.booking{
+    margin-bottom: 40px;
+}
+.greysection{
+    padding: 15px;
+    background-color:  rgb(245, 245, 245);
+    text-align: center;
+}
+.greysectiontext{
+    text-align: left;
+}
+.phonenumber{
+    color: black;
+}
+.mainsection{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.mainsection ul{
+    padding: 0;
+}
+
+
+.mainsection ul li h3{
+    margin-right: 30%;
+    font-size: 18px;
+    
+}
+
+
+.mainsection .viewall{
+    margin-left: 70%;
+    color: #F88907;
+    
+}
+.popularmenutext{
+    margin-bottom: 50px;
+    margin-top: 0%
+}
+
+.slider-container {
+    
+    overflow-x:hidden;
+    width: 400%;
+    position: relative;
+  }
+  
+  .slider {
+    overflow-x: hidden;
+    display: flex;
+    width: fit-content;
+    animation: slide 15s linear infinite;
+  }
+  
+  .slider-image {
+    width: 100%;
+  }
+  
+  @keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-76.33%); }
+  }
+.wrapper::-webkit-scrollbar{
+    width: 0;
+}
+.wrapperimages{
+    padding-right: 20px;
+}
+.phonenumber{
+    color: black;
+    font-size: large;
+}
+.heading{
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+footer{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+.bottomtext{
+    color: white;
+}
+.newsletter h2{
+    padding-bottom: 20px;
+}
+.newsletter{
+    background-color: black;
+    padding: 30px;
+    margin: 0;
+    
+    text-align: center;
+  
+}
+
+.newsletter h4{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+}
+.newsletter input{
+    width: 83%;
+    height: 40px;
+    border-radius: 16px;
+    font-size: medium;
+    padding-left: 20px;
+    background-color: rgb(65, 61, 57);
+    border-color: black;
+}
+.newsletter:focus{
+    border-color: black;
+    outline-color: black;
+}
+.newsletter button{
+    height: 43px;
+    width: 90%;
+    background-color: #F88907;
+    font-size: large;
+    border-radius: 16px;
+    outline: none;
+    border: none;
+}
+.bottomsection ul{
+    text-align: left;
+    padding-left: 30px;
+    list-style-type: none;
+}
+.bottomsection a{
+    text-align: left;
+}
+.copyright{
+    text-align: center;
+    margin-top: 30px;
+}
+@media (max-width: 335px) {
+    body{
+      min-width: 335px;
+    }
+  }
+@media only screen and (min-width: 500px){
+    .heroimages{
+        width: 80%;
+        
+    }
+    #popularimage{
+        width: 80%;
+
+    }
+    .newsletter input {
+        width: 53%
+    }
+    .newsletter button {
+        width: 59%;
+    }
+    .bookingimages {
+        width: 80%;
+        
+    }
+    table {
+        border-collapse: collapse;
+        padding: 0;
+      }
+      #logo{
+        width: 20%;
+        
+        
+    }
+}
+@media only screen and (min-width: 600px){
+    .heroimages {
+        width: 60%;
+    }
+    #logo{
+        width: 15%;
+        
+        
+    }
+    .viewbutton {
+        width: 20%;
+    }
+}
+
+
+@media only screen and (min-width: 750px)  {
+
+    .bookingimages {
+        width: 70%;
+    }
+    table{
+        display: none;
+    }
+    .viewbutton {
+        width: 20%;
+        position: relative;
+        top: 50px;
+        left: 30px;
+        font-size: larger;
+        font-weight: 600;
+        border: black 3px;
+
+    }
+    .viewbutton:hover{
+        cursor:pointer;
+        background-color: #a35700;
+    }
+ 
+    
+    .show-desktop {
+        display: block;
+        margin: 0 auto 13% auto;
+    }
+
+    .hide-desktop {
+        display: none;
+    }
+    nav ul {
+        position: inherit;
+        width: auto;
+        background: none;
+        height: auto;
+        display: flex;
+        padding-top: 0;
+    }
+
+    nav ul li {
+        float: left;
+        margin-right: 35px;
+    }
+
+    nav ul li a {
+        color: black;
+        background-color: inherit;
+        text-align: right;
+        padding: 1em 1em;
+    
+    }
+
+    nav ul li a:hover {
+        background-color: inherit;
+    }
+    @keyframes slide {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-56.33%); }
+      }
+}
+@media only screen and (min-width: 1000px)  {
+    #logo{
+        width: 10%;
+        
+        
+    }
+    .viewbutton{
+        left: 80px;
+        width: 10%;
+    }
+   
+    .bookingimages{
+        width: 40%;
+    }
+    
+    .greysectiontext{
+        font-size: larger;
+    }
+    .imagecontainer{
+        display: flex;
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+    .image1{
+        padding-right: 50px;
+        padding-left: 30px;
+        
+    }
+    .booking{
+        padding-right: 50px;
+        padding-left: 30px;
+    }
+    .secondcontainer{
+        flex-wrap: nowrap;
+        flex-direction: row-reverse;
+    }
+    .secondcontainer h3,h2{
+        margin: 0;
+    }
+    .secondcontainer h3{
+        margin-top: 20px;
+    }
+    .open{
+        padding-right: 50px;
+        padding-left: 30px;
+
+    }
+    .newsletter input {
+        width: 25%
+    }
+    .newsletter button {
+        width: 27%;
+    }
+    footer{
+        font-size: larger;
+    }
+    header{
+        font-size: larger;
+    }
+    
+}
